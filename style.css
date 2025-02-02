@@ -1,0 +1,91 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Open Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-image: url('weather.jpg');
+    background-size: 1900px;
+    font-size: 120%;
+}
+
+.card{
+    background-color: #84c6d6;
+    opacity: 90% ;
+    padding: 2em;
+    color: rgb(0, 0, 0);
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+button{
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 46px;
+    width: 46px;
+    outline: none;
+    background: #292727;
+    color: wheat;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.search-bar{
+    border: none;
+    outline: none;
+    padding: 0.5em 1em;
+    border-radius: 24px;
+    background-color: #292727;
+    color: white;
+    font-family: inherit;
+    font-size: 120%;
+    width: calc(100% - 100px);
+    height: 25px;
+}
+
+button:hover{
+    background: rgb(5, 20, 87);
+}
+
+h1.temp{
+    margin: 0;
+    margin-bottom: 0.5em;
+}
+
+.description{
+    text-transform: capitalize;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    margin-left: -8px;
+}
+
+/* ......................... */
+
+.humidity{
+    font-size: 25px;
+}
+
+.description{
+    font-size: 25px;
+}
+
+.wind{
+    font-size: 25px;
+}
