@@ -16,7 +16,6 @@ This is a simple and responsive web application that provides real-time weather 
 - **API**: OpenWeatherMap API
 - **Fonts**: Google Fonts (Open Sans, Poppins)
 - **Icons**: SVG icons for the search button
-- **Hosting**: (Optional) Can be hosted on platforms like Netlify, Vercel, or GitHub Pages.
 
 ## Installation
 To run this project locally, follow these steps:
@@ -33,7 +32,7 @@ cd weather-web-app
 
 ```javascript
 let weather = {
-    apiKey: "your_api_key_here",
+    apiKey: "558b591bed5b2d26024b0e16d4f7a8a3",
     // Rest of the code...
 };
 ```
@@ -80,7 +79,7 @@ weather-web-app/
 
 ## Screenshots
 ### Weather App Screenshot
-_(Example of the weather app interface can be placed here)_
+![Weather App Screenshot](wheather.png)
 
 ## Contributing
 Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
